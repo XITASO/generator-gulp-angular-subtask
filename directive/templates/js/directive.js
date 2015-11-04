@@ -1,17 +1,19 @@
 (function() {
   'use strict';
   /**
-   * @ngdoc filter
-   * @name <%= scriptAppName %>.filter:<%= scriptClassName %>
-   * @function
+   * @ngdoc directive
+   * @name <%= scriptAppName %>.directive:<%= scriptClassName %>
    * @description
    * # <%= scriptClassName %>
-   * Filter in the <%= scriptAppName %>.
    */
   angular.module('<%= scriptAppName %>')
-    .filter('<%= scriptClassName %>', function () {
-      return function (input) {
-        return '<%= scriptClassName %> filter: ' + input;
+    .directive('<%= scriptClassName %>', function () {
+      return {
+        template: '<div></div>',
+        restrict: 'E',
+        link: function(scope, element, attrs) {
+          element.text('this is the <%= scriptClassName %> directive');
+        }
       };
-    });
+    })
 })();
