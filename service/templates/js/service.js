@@ -1,3 +1,4 @@
+(function() {
 'use strict';
 /**
  * @ngdoc service
@@ -15,3 +16,4 @@ angular.module('<%= scriptAppName %>')
       'Karma'
     ];
   });
+})();
