@@ -138,7 +138,7 @@ var MyBase = module.exports = generators.NamedBase.extend({
       case 'style':
         return this.name;
       default:
-        return this.name + '-' + taskType;
+        return this.name + '.' + taskType;
     }
   },
   // Validate options
