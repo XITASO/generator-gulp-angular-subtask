@@ -1,3 +1,4 @@
+(function(){
 'use strict';
 /**
  * @ngdoc service
@@ -8,3 +9,4 @@
  */
 angular.module('<%= scriptAppName %>')
   .constant('<%= scriptClassName %>Const', <%= serviceValue %>);
+})();
