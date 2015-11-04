@@ -8,8 +8,9 @@
    * Controller of the <%= scriptAppName %>
    */
   angular.module('<%= scriptAppName %>')
-    .controller('<%= scriptClassName %>Ctrl', function ($scope) {
-      $scope.awesomeThings = [
+    .controller('<%= scriptClassName %>Ctrl', function () {
+      vm = this;
+      vm.awesomeThings = [
         'HTML5 Boilerplate',
         'AngularJS',
         'Karma'
