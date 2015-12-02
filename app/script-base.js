@@ -96,7 +96,6 @@ var MyBase = module.exports = generators.NamedBase.extend({
       filename = this._getFilename(taskType),
       bundle = (typeof this.options['bundle'] !== 'undefined') ? this.options['bundle'] : this.name,
       templateDest = destType + '/' + bundle + '/' + filename;
-    }
 
     if (typeof this.options['dest'] !== 'undefined') {
       templateDest = this._prepareDestination(this.options['dest']) + '/' + filename;
