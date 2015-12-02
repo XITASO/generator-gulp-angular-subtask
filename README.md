@@ -12,7 +12,7 @@
 1. Create a project using [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular)
 2. After you have a working project, install the generator-gulp-angular-subtask <br />
 ```
-npm install -g generator-gulp-angular-subtask
+npm install -g https://github.com/timka/generator-gulp-angular-subtask.git yo
 ```
 3. Run `yo gulp-angular-subtask` and set your defaults
 4. Create subtasks following the [examples](https://github.com/doronsever/generator-gulp-angular-subtask#examples) below
