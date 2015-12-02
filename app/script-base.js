@@ -95,9 +95,7 @@ var MyBase = module.exports = generators.NamedBase.extend({
     var destType = (typeof this.options['component'] !== 'undefined') ? 'app/components' : 'app',
       filename = this._getFilename(taskType),
       bundle = (typeof this.options['bundle'] !== 'undefined') ? this.options['bundle'] : this.name,
-      templateDest = destType + '/' + bundle + '/' + this._getTaskPluralDirectory(taskType) + '/' + filename;
-    if (testFile) { // Put spec file in the module under spec directory
-      templateDest = destType + '/' + bundle + '/spec/' + this._getTaskPluralDirectory(taskType) + '/' + filename;
+      templateDest = destType + '/' + bundle + '/' + filename;
     }
 
     if (typeof this.options['dest'] !== 'undefined') {
