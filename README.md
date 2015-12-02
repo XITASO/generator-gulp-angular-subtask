@@ -2,7 +2,7 @@
 
 > A helper generator for [gulp-angular](https://github.com/Swiip/generator-gulp-angular) generator
 
-**IMPORTANT NOTE: This is a hacked version of the original @dronoserver's subtask generator that uses flat structure as recommended in Angular Style Guide. Don't expect any support. **
+**IMPORTANT NOTE: This is a hacked version of the original @doronsever's subtask generator that uses flat structure as recommended in Angular Style Guide. Don't expect any support. **
 
 
 ## Getting Started
