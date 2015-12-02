@@ -2,9 +2,7 @@
 
 > A helper generator for [gulp-angular](https://github.com/Swiip/generator-gulp-angular) generator
 
-**IMPORTANT NOTE: This subtask generator version was updated to fit generator-gulp-angular >= V0.11.* **
-
-**If you are using previous versions please check at [previous releases](https://github.com/doronsever/generator-gulp-angular-subtask/releases)**
+**IMPORTANT NOTE: This is a hacked version of the original @dronoserver's subtask generator that uses flat structure as recommended in Angular Style Guide. Don't expect any support. **
 
 
 ## Getting Started
