@@ -9,7 +9,7 @@
      */
     angular
         .module('<%= scriptAppName %>')
-        .factory('<%= scriptClassName %>', <%= scriptClassName %>);
+        .factory('<%= scriptClassName %>Factory', <%= scriptClassName %>);
     
     /** @ngInject */
     function <%= scriptClassName %>() {
