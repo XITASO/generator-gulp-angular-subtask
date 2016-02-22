@@ -17,7 +17,7 @@
 npm install -g https://github.com/timka/generator-gulp-angular-subtask.git yo
 ```
 3. Run `yo gulp-angular-subtask` and set your defaults
-4. Create subtasks following the [examples](https://github.com/doronsever/generator-gulp-angular-subtask#examples) below
+4. Create subtasks following the [examples](https://github.com/ProfitWarning/generator-gulp-angular-subtask#examples) below
 
 
 ### Why should i use it?
@@ -31,16 +31,16 @@ This project will be deprecated when the team decide to support this issue.
 
 I currently support these sub tasks: 
 
-  * [controller](https://github.com/doronsever/generator-gulp-angular-subtask#controllers)
-  * [directive](https://github.com/doronsever/generator-gulp-angular-subtask#directives)
-  * [provider](https://github.com/doronsever/generator-gulp-angular-subtask#factories-services-and-provides)
-  * [factory](https://github.com/doronsever/generator-gulp-angular-subtask#factories-services-and-provides)
-  * [service](https://github.com/doronsever/generator-gulp-angular-subtask#factories-services-and-provides)
-  * [value](https://github.com/doronsever/generator-gulp-angular-subtask#values-constants)
-  * [constant](https://github.com/doronsever/generator-gulp-angular-subtask#values-constants)
-  * [filter](https://github.com/doronsever/generator-gulp-angular-subtask#filters)
-  * [style](https://github.com/doronsever/generator-gulp-angular-subtask#styles) (supports css, less, scss, sass, stylus. Only create the files, NOT implementing compass. see installation section)
-  * [partial](https://github.com/doronsever/generator-gulp-angular-subtask#partials)
+  * [controller](https://github.com/ProfitWarning/generator-gulp-angular-subtask#controllers)
+  * [directive](https://github.com/ProfitWarning/generator-gulp-angular-subtask#directives)
+  * [provider](https://github.com/ProfitWarning/generator-gulp-angular-subtask#factories-services-and-provides)
+  * [factory](https://github.com/ProfitWarning/generator-gulp-angular-subtask#factories-services-and-provides)
+  * [service](https://github.com/ProfitWarning/generator-gulp-angular-subtask#factories-services-and-provides)
+  * [value](https://github.com/ProfitWarning/generator-gulp-angular-subtask#values-constants)
+  * [constant](https://github.com/ProfitWarning/generator-gulp-angular-subtask#values-constants)
+  * [filter](https://github.com/ProfitWarning/generator-gulp-angular-subtask#filters)
+  * [style](https://github.com/ProfitWarning/generator-gulp-angular-subtask#styles) (supports css, less, scss, sass, stylus. Only create the files, NOT implementing compass. see installation section)
+  * [partial](https://github.com/ProfitWarning/generator-gulp-angular-subtask#partials)
   
 ### Options
 
