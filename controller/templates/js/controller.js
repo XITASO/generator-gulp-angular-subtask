@@ -1,4 +1,4 @@
-(function() {
+(function () {
   'use strict';
   /**
    * @ngdoc function
@@ -7,13 +7,18 @@
    * # <%= scriptClassName %>Ctrl
    * Controller of the <%= scriptAppName %>
    */
-  angular.module('<%= scriptAppName %>')
-    .controller('<%= scriptClassName %>Ctrl', function () {
+  angular
+    .module('<%= scriptAppName %>')
+    .controller('<%= scriptClassName %>Ctrl', <%= scriptClassName %>Ctrl);
+    
+    /** @ngInject */
+    var <%= scriptClassName %>Ctrl = function () {
       vm = this;
       vm.awesomeThings = [
         'HTML5 Boilerplate',
         'AngularJS',
         'Karma'
       ];
-    });
+    }    
+    
 })();
