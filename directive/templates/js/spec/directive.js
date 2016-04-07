@@ -1,8 +1,8 @@
 'use strict';
 
-describe('Directive: test', function () {
+describe('Directive: <%= scriptClassName %>', function () {
     // load the directive's module
-    beforeEach(module('quizAppAdmin'));
+    beforeEach(module('<%= scriptAppName %>'));
     var $compile,
         $scope,
         directiveElem;
@@ -15,13 +15,13 @@ describe('Directive: test', function () {
     }));
 
     function getCompiledElement() {
-        var element = angular.element(/*directive html tag*/);
+        var element = angular.element('<<%= scriptClassName %>></<%= scriptClassName %>>');
         var compiledElement = $compile(element)($scope);
         $scope.$digest();
         return compiledElement;
     }
 
-    it('should load/show test text', inject(function () {
+    it('should load/show <%= scriptClassName %> text', inject(function () {
         expect(directiveElem.text()).not.toEqual('');
     }));
 });
