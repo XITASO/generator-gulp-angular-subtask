@@ -21,7 +21,7 @@ describe('Directive: <%= scriptClassName %>', function () {
     return compiledElement;
   }
 
-  it('should load/show <%= scriptClassName %> html', inject(function() {
+  it('should load/show <%= scriptClassName %> html', inject(function () {
     expect(directiveElem.text()).not.toEqual('');
   }));
 });
