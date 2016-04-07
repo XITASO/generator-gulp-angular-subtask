@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Directive: <%= scriptClassName %>', function() {
+describe('Directive: <%= scriptClassName %>', function () {
   // load the directive's module
   beforeEach(module('<%= scriptAppName %>'));
   var $compile,
@@ -22,6 +22,6 @@ describe('Directive: <%= scriptClassName %>', function() {
   }
 
   it('should load/show <%= scriptClassName %> html', inject(function() {
-    expect(directiveElem.html()).not.toEqual('');
+    expect(directiveElem.text()).not.toEqual('');
   }));
 });
