@@ -21,7 +21,7 @@ describe('Directive: test', function () {
         return compiledElement;
     }
 
-    it('should load/show test html', inject(function () {
+    it('should load/show test text', inject(function () {
         expect(directiveElem.text()).not.toEqual('');
     }));
 });
