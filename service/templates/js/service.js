@@ -9,7 +9,7 @@
    */
     angular
         .module('<%= scriptAppName %>')
-        .service('<%= scriptClassName %>Service', <%= scriptClassName %>Service);
+        .service('<%= scriptClassName %>Service', <%= scriptClassName %>ServiceCtrl);
 
     /** @ngInject */
     var <%= scriptClassName %>ServiceCtrl = function () {

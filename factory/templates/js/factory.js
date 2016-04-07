@@ -1,29 +1,31 @@
 (function () {
-  'use strict';
-  /**
-   * @ngdoc service
-   * @name <%= scriptAppName %>.<%= scriptClassName %>
-   * @description
-   * # <%= scriptClassName %>
-   * Factory in the <%= scriptAppName %>.
-   */
-  angular
-    .module('<%= scriptAppName %>')
-    .factory('<%= scriptClassName %>Factory', <%= scriptClassName %>Factory);
-    
-  /** @ngInject */
-  function <%= scriptClassName %>Factory() {
-  
-    var meaningOfLife = 42;
+    'use strict';
+    /**
+     * @ngdoc service
+     * @name <%= scriptAppName %>.<%= scriptClassName %>
+     * @description
+     * # test
+     * Factory in the <%= scriptAppName %>.
+     */
+    angular
+        .module('<%= scriptAppName %>')
+        .factory('<%= scriptClassName %>Factory', <%= scriptClassName %>Factory);
 
-    var someMethod = function () {
-      return meaningOfLife;
-    }
+    /** @ngInject */
+    function <%= scriptClassName %>Factory() {
 
-    var <%= scriptClassName %> = {
-      someMethod: someMethod
-    };
+        var meaningOfLife = 42;
 
-    return <%= scriptClassName %>
+        var someMethod = function () {
+            return meaningOfLife;
+        };
+
+        var <%= scriptClassName %> = {
+            someMethod: someMethod
+        };
+
+        return <%= scriptClassName %>;
     }
 })();
+
+
