@@ -7,7 +7,7 @@ describe('Directive: <%= scriptClassName %>', function() {
     $scope,
     directiveElem;
 
-  beforeEach(inject(function(_$compile_, _$rootScope_) {
+  beforeEach(inject(function (_$compile_, _$rootScope_) {
     $compile = _$compile_;
     $scope = _$rootScope_.$new();
 
