@@ -12,7 +12,7 @@
         .service('<%= scriptClassName %>Service', <%= scriptClassName %>Service);
 
     /** @ngInject */
-    var <%= scriptClassName %>Ctrl = function () {
+    var <%= scriptClassName %>ServiceCtrl = function () {
         var vm = this;
         vm.awesomeThings = [
             'HTML5 Boilerplate',
