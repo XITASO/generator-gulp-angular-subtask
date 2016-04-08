@@ -12,8 +12,8 @@
     .controller('<%= scriptClassName %>Ctrl', <%= scriptClassName %>Ctrl);
     
     /** @ngInject */
-    var <%= scriptClassName %>Ctrl = function () {
-      vm = this;
+    function <%= scriptClassName %>Ctrl() {
+      var vm = this;
       vm.awesomeThings = [
         'HTML5 Boilerplate',
         'AngularJS',
